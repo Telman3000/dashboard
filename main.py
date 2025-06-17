@@ -29,7 +29,7 @@ def console_log(action: str, message: str):
 MONGO_URI = os.getenv('MONGO_URI', "mongodb://localhost:27017/")
 DB_NAME = "namaz_db"
 try:
-    client = MongoClient(MONGO_URI, server_selection_timeout_ms=5000)
+    client = MongoClient(MONGO_URI, serverSelectionTimeoutMS=5000)
     client.server_info()  # Test connection
     db = client[DB_NAME]
     col_grouped = db['users_grouped']
