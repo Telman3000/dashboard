@@ -1,0 +1,1643 @@
+[
+    {
+        "id": "main",
+        "type": "tab",
+        "icon": "cube",
+        "items": [
+            {
+                "id": "fard_prayer",
+                "type": "section",
+                "knowledge": {
+                    "prayer_display": "fard_only"
+                },
+                "items": [
+                    {
+                        "id": "fajr_fard",
+                        "type": "fard_prayer",
+                        "title": "Fajr - dawn"
+                    },
+                    {
+                        "id": "dhuhr_fard",
+                        "type": "fard_prayer",
+                        "title": "Dhuhr - noon"
+                    },
+                    {
+                        "id": "3asr_fard",
+                        "type": "fard_prayer",
+                        "title": "ʿAsr - afternoon"
+                    },
+                    {
+                        "id": "maghrib_fard",
+                        "type": "fard_prayer",
+                        "title": "Maghrib - sunset"
+                    },
+                    {
+                        "id": "3isha_fard",
+                        "type": "fard_prayer",
+                        "title": "ʿIsha - night"
+                    }
+                ],
+                "title": "Fard Prayer"
+            },
+            {
+                "id": "prayer",
+                "type": "section",
+                "knowledge": {
+                    "prayer_display": "fard_with_sunnah"
+                },
+                "items": [
+                    {
+                        "id": "beginner_prayer",
+                        "type": "comment",
+                        "title": "Establish the fard first, then witr and sunnah of Fajr, then other sunnahs."
+                    },
+                    {
+                        "id": "fajr",
+                        "type": "collection",
+                        "items": [
+                            {
+                                "id": "fajr_sunnah",
+                                "type": "muakkadah_prayer",
+                                "title": "Sunnah 2"
+                            },
+                            {
+                                "id": "fajr_fard",
+                                "type": "fard_prayer",
+                                "title": "Fard 2"
+                            }
+                        ],
+                        "title": "Fajr - dawn"
+                    },
+                    {
+                        "id": "dhuhr",
+                        "type": "collection",
+                        "items": [
+                            {
+                                "id": "dhuhr_sunnah_4",
+                                "type": "muakkadah_prayer",
+                                "title": "Sunnah 4"
+                            },
+                            {
+                                "id": "dhuhr_fard",
+                                "type": "fard_prayer",
+                                "title": "Fard 4"
+                            },
+                            {
+                                "id": "dhuhr_sunnah_2",
+                                "type": "muakkadah_prayer",
+                                "title": "Sunnah 2"
+                            }
+                        ],
+                        "title": "Dhuhr - noon"
+                    },
+                    {
+                        "id": "3asr",
+                        "type": "collection",
+                        "items": [
+                            {
+                                "id": "3asr_sunnah_4",
+                                "type": "ghayr_muakkadah_prayer",
+                                "knowledge": {
+                                    "switch": "ghayr_muakkadah_prayers"
+                                },
+                                "title": "Sunnah 4"
+                            },
+                            {
+                                "id": "3asr_fard",
+                                "type": "fard_prayer",
+                                "title": "Fard 4"
+                            }
+                        ],
+                        "title": "ʿAsr - afternoon"
+                    },
+                    {
+                        "id": "maghrib",
+                        "type": "collection",
+                        "items": [
+                            {
+                                "id": "maghrib_fard",
+                                "type": "fard_prayer",
+                                "title": "Fard 3"
+                            },
+                            {
+                                "id": "maghrib_sunnah",
+                                "type": "muakkadah_prayer",
+                                "title": "Sunnah 2"
+                            }
+                        ],
+                        "title": "Maghrib - sunset"
+                    },
+                    {
+                        "id": "3isha",
+                        "type": "collection",
+                        "items": [
+                            {
+                                "id": "3isha_sunnah_4",
+                                "type": "ghayr_muakkadah_prayer",
+                                "knowledge": {
+                                    "switch": "ghayr_muakkadah_prayers"
+                                },
+                                "title": "Sunnah 4"
+                            },
+                            {
+                                "id": "3isha_fard",
+                                "type": "fard_prayer",
+                                "title": "Fard 4"
+                            },
+                            {
+                                "id": "3isha_sunnah_2",
+                                "type": "muakkadah_prayer",
+                                "title": "Sunnah 2"
+                            },
+                            {
+                                "id": "witr",
+                                "type": "wajib_prayer",
+                                "title": "Witr 3"
+                            }
+                        ],
+                        "title": "ʿIsha - night"
+                    }
+                ],
+                "title": "Prayer"
+            },
+            {
+                "id": "prayer_extras",
+                "type": "section",
+                "items": [
+                    {
+                        "id": "sunnah_prayers",
+                        "type": "list",
+                        "icon": "folder",
+                        "knowledge": {
+                            "switch": "show_sunnah_prayers",
+                            "prayer_display": "fard_only"
+                        },
+                        "items": [
+                            {
+                                "id": "sunnah_prayers",
+                                "type": "section",
+                                "items": [
+                                    {
+                                        "id": "prayer_categories",
+                                        "type": "shortcut",
+                                        "icon": "doc.append",
+                                        "title": "Types of Prayer"
+                                    },
+                                    {
+                                        "id": "jumu3ah",
+                                        "type": "article",
+                                        "icon": "figure.walk",
+                                        "title": "Jumu'ah: Friday prayer",
+                                        "description": "Fard for men",
+                                        "url": "https://www.namaz.live/jumu3ah-friday-prayer"
+                                    },
+                                    {
+                                        "id": "tahajjud",
+                                        "type": "article",
+                                        "icon": "moon.zzz",
+                                        "title": "Tahajjud: the night vigil prayer",
+                                        "url": "https://www.namaz.live/tahajjud"
+                                    },
+                                    {
+                                        "id": "ghayr_muakkadah_prayers",
+                                        "type": "switch",
+                                        "title": "Show non-emphasized sunnahs",
+                                        "description": "Read the article above for understanding"
+                                    }
+                                ],
+                                "title": "Sunnah: Recommended Prayers"
+                            },
+                            {
+                                "id": "fajr",
+                                "type": "section",
+                                "items": [
+                                    {
+                                        "id": "fajr_sunnah",
+                                        "type": "muakkadah_prayer",
+                                        "title": "2 rakaat before fard",
+                                        "description": "Emphasized Sunnah"
+                                    }
+                                ],
+                                "title": "Fajr - dawn"
+                            },
+                            {
+                                "id": "dhuhr",
+                                "type": "section",
+                                "items": [
+                                    {
+                                        "id": "dhuhr_sunnah_4",
+                                        "type": "muakkadah_prayer",
+                                        "title": "4 rakaat before fard",
+                                        "description": "Emphasized Sunnah"
+                                    },
+                                    {
+                                        "id": "dhuhr_sunnah_2",
+                                        "type": "muakkadah_prayer",
+                                        "title": "2 rakaat after fard",
+                                        "description": "Emphasized Sunnah"
+                                    }
+                                ],
+                                "title": "Dhuhr - noon"
+                            },
+                            {
+                                "id": "3asr",
+                                "type": "section",
+                                "items": [
+                                    {
+                                        "id": "3asr_sunnah_4",
+                                        "type": "ghayr_muakkadah_prayer",
+                                        "knowledge": {
+                                            "switch": "ghayr_muakkadah_prayers"
+                                        },
+                                        "title": "4 rakaat before fard",
+                                        "description": "Non-emphasized Sunnah"
+                                    }
+                                ],
+                                "title": "ʿAsr - afternoon"
+                            },
+                            {
+                                "id": "maghrib",
+                                "type": "section",
+                                "items": [
+                                    {
+                                        "id": "maghrib_sunnah",
+                                        "type": "muakkadah_prayer",
+                                        "title": "2 rakaat after fard",
+                                        "description": "Emphasized Sunnah"
+                                    }
+                                ],
+                                "title": "Maghrib - sunset"
+                            },
+                            {
+                                "id": "3isha",
+                                "type": "section",
+                                "items": [
+                                    {
+                                        "id": "3isha_sunnah_4",
+                                        "type": "ghayr_muakkadah_prayer",
+                                        "knowledge": {
+                                            "switch": "ghayr_muakkadah_prayers"
+                                        },
+                                        "title": "4 rakaat before fard",
+                                        "description": "Non-emphasized Sunnah"
+                                    },
+                                    {
+                                        "id": "3isha_sunnah_2",
+                                        "type": "muakkadah_prayer",
+                                        "title": "2 rakaat after fard",
+                                        "description": "Emphasized Sunnah"
+                                    },
+                                    {
+                                        "id": "witr",
+                                        "type": "wajib_prayer",
+                                        "title": "Witr: 3 rakaat after fard and sunnah",
+                                        "description": "Wajib"
+                                    }
+                                ],
+                                "title": "ʿIsha - night"
+                            }
+                        ],
+                        "title": "Sunnah: Recommended Prayers"
+                    },
+                    {
+                        "id": "taharah",
+                        "type": "lesson",
+                        "icon": "sink",
+                        "title": "Washing before prayer",
+                        "url": "https://www.namaz.live/taharah-illustrated"
+                    },
+                    {
+                        "id": "qibla",
+                        "type": "feature",
+                        "icon": "safari",
+                        "title": "Qibla: prayer direction"
+                    }
+                ]
+            },
+            {
+                "id": "recommendations",
+                "type": "recommender",
+                "items": [
+                    {
+                        "id": "fard_prayers",
+                        "type": "dynamic",
+                        "icon": "doc.richtext",
+                        "title": "What are fard prayers?",
+                        "url": "https://www.namaz.live/namaz"
+                    },
+                    {
+                        "id": "location",
+                        "type": "switch",
+                        "icon": "clock",
+                        "title": "Enable prayer times",
+                        "description": "Uses your geolocation"
+                    },
+                    {
+                        "id": "recommender_study_consent",
+                        "type": "questionnaire",
+                        "knowledge": {
+                            "iOS": "15",
+                            "maxLaunchCount": "1"
+                        },
+                        "shows": {
+                            "en": 1,
+                            "ru": 0
+                        },
+                        "icon": "person",
+                        "items": [
+                            {
+                                "id": "consent_to_participate",
+                                "type": "singleChoice",
+                                "items": [
+                                    {
+                                        "id": "1",
+                                        "type": "option",
+                                        "icon": "✅",
+                                        "title": "Yes please"
+                                    },
+                                    {
+                                        "id": "-1",
+                                        "type": "option",
+                                        "icon": "❌",
+                                        "title": "No thanks"
+                                    }
+                                ],
+                                "title": "Get personalized recommendations",
+                                "description": "We'll be recommending you one item per session adjusted to your app interaction history.\n\nThe feature is part of an experimental study, the results will be published in a scientific paper. By agreeing, you are giving your consent to participate in the study."
+                            }
+                        ],
+                        "title": "Get personalized recommendations"
+                    }
+                ],
+                "title": "Recommended activity"
+            },
+            {
+                "id": "favourites",
+                "type": "stored_collection",
+                "title": "Favourites"
+            }
+        ],
+        "title": "Pray"
+    },
+    {
+        "id": "listen",
+        "type": "tab",
+        "icon": "audio",
+        "items": [
+            {
+                "id": "audio_tab_header",
+                "type": "section",
+                "items": [
+                    {
+                        "id": "audio_display",
+                        "type": "segmented",
+                        "elements": [
+                            "transliterated",
+                            "surahs",
+                            "recordings"
+                        ],
+                        "knowledge": {
+                            "iOS": "15",
+                            "minLaunchCount": "5"
+                        }
+                    },
+                    {
+                        "id": "range_selector",
+                        "type": "feature",
+                        "icon": "filemenu.and.selection",
+                        "knowledge": {
+                            "iOS": "15",
+                            "minLaunchCount": "5"
+                        },
+                        "title": "Select a range to play"
+                    }
+                ],
+                "title": "Listen and Memorize"
+            },
+            {
+                "id": "surahs",
+                "type": "stored_collection",
+                "knowledge": {
+                    "audio_display": "surahs"
+                },
+                "title": "Whole Quran: listen and record",
+                "description": "Requires internet connection and extra storage"
+            },
+            {
+                "id": "recordings",
+                "type": "stored_collection",
+                "knowledge": {
+                    "audio_display": "recordings"
+                },
+                "title": "My recordings"
+            },
+            {
+                "id": "surah",
+                "type": "section",
+                "knowledge": {
+                    "audio_display": "transliterated"
+                },
+                "items": [
+                    {
+                        "id": "001",
+                        "type": "audio",
+                        "title": "Al-Faatiĥah"
+                    },
+                    {
+                        "id": "097",
+                        "type": "audio",
+                        "title": "Al-Qadr"
+                    },
+                    {
+                        "id": "103",
+                        "type": "audio",
+                        "title": "Al-عasr"
+                    },
+                    {
+                        "id": "104",
+                        "type": "audio",
+                        "title": "Al-Humazah"
+                    },
+                    {
+                        "id": "105",
+                        "type": "audio",
+                        "title": "Al-Fil"
+                    },
+                    {
+                        "id": "106",
+                        "type": "audio",
+                        "title": "Quraish"
+                    },
+                    {
+                        "id": "107",
+                        "type": "audio",
+                        "title": "Al-Maaعoon"
+                    },
+                    {
+                        "id": "108",
+                        "type": "audio",
+                        "title": "Al-Kauthar"
+                    },
+                    {
+                        "id": "109",
+                        "type": "audio",
+                        "title": "Al-Kafiroon"
+                    },
+                    {
+                        "id": "110",
+                        "type": "audio",
+                        "title": "An-Nasr"
+                    },
+                    {
+                        "id": "111",
+                        "type": "audio",
+                        "title": "Al-Masad"
+                    },
+                    {
+                        "id": "112",
+                        "type": "audio",
+                        "title": "Al-Ikhlas"
+                    },
+                    {
+                        "id": "113",
+                        "type": "audio",
+                        "title": "Al-Falaq"
+                    },
+                    {
+                        "id": "114",
+                        "type": "audio",
+                        "title": "Аn-Nas"
+                    }
+                ],
+                "title": "al-Quran: Short Surahs",
+                "description": ""
+            },
+            {
+                "id": "ayat",
+                "type": "section",
+                "knowledge": {
+                    "audio_display": "transliterated"
+                },
+                "items": [
+                    {
+                        "id": "002001005",
+                        "type": "audio",
+                        "title": "Al-Baqarah 1-5"
+                    },
+                    {
+                        "id": "002185",
+                        "type": "audio",
+                        "title": "Ayat Ramadan: Al-Baqarah 185"
+                    },
+                    {
+                        "id": "002255",
+                        "type": "audio",
+                        "title": "Ayat al-Kursi: Al-Baqarah 255",
+                        "description": "The best verse of the Quran"
+                    },
+                    {
+                        "id": "002285286",
+                        "type": "audio",
+                        "title": "Al-Baqarah 285-286"
+                    },
+                    {
+                        "id": "003001009",
+                        "type": "audio",
+                        "title": "Aali عimran 1-9"
+                    },
+                    {
+                        "id": "003190195",
+                        "type": "audio",
+                        "title": "Aali عimran 190-195"
+                    },
+                    {
+                        "id": "059018024",
+                        "type": "audio",
+                        "shows": {
+                            "en": 1,
+                            "ru": 0
+                        },
+                        "title": "Al-Hashr 18-24"
+                    }
+                ],
+                "title": "Selected Verses from the Quran"
+            },
+            {
+                "id": "dhikr",
+                "type": "section",
+                "knowledge": {
+                    "audio_display": "transliterated"
+                },
+                "items": [
+                    {
+                        "id": "999001",
+                        "type": "audio",
+                        "title": "At-Tahiyyat"
+                    },
+                    {
+                        "id": "999002",
+                        "type": "audio",
+                        "title": "Subhanaka"
+                    },
+                    {
+                        "id": "999003",
+                        "type": "audio",
+                        "title": "Salawat"
+                    },
+                    {
+                        "id": "999005",
+                        "type": "audio",
+                        "title": "Adhkar after prayer"
+                    },
+                    {
+                        "id": "999008",
+                        "type": "audio",
+                        "title": "Adhan: call to prayer",
+                        "description": "Signals the beginning of prayer time"
+                    },
+                    {
+                        "id": "999010",
+                        "type": "audio",
+                        "title": "Iqamah: prayer is about to commence",
+                        "description": "Sunnah Muakkadah for men"
+                    }
+                ],
+                "title": "Dhikr: Remembrance",
+                "description": "Remembering Allah from al-Quran and Sunnah"
+            },
+            {
+                "id": "dua",
+                "type": "section",
+                "knowledge": {
+                    "audio_display": "transliterated"
+                },
+                "items": [
+                    {
+                        "id": "999004",
+                        "type": "audio",
+                        "title": "Dua Qunoot"
+                    },
+                    {
+                        "id": "999011",
+                        "type": "audio",
+                        "title": "Dua from the Quran: Our Lord!"
+                    },
+                    {
+                        "id": "999006",
+                        "type": "audio",
+                        "title": "Dua for Protection"
+                    },
+                    {
+                        "id": "999007",
+                        "type": "audio",
+                        "title": "Dua Istikhara"
+                    }
+                ],
+                "title": "Dua: Supplications",
+                "description": "Calling unto Allah from al-Quran and Sunnah"
+            }
+        ],
+        "title": "Listen"
+    },
+    {
+        "id": "learn",
+        "type": "tab",
+        "icon": "tableview",
+        "items": [
+            {
+                "id": "general",
+                "type": "section",
+                "items": [
+                    {
+                        "id": "fard_prayers",
+                        "type": "dynamic",
+                        "icon": "doc.richtext",
+                        "title": "What are fard prayers?",
+                        "url": "https://www.namaz.live/namaz"
+                    },
+                    {
+                        "id": "namaz_quiz",
+                        "type": "quiz",
+                        "shows": {
+                            "ru": 0,
+                            "en": 1
+                        },
+                        "icon": "puzzlepiece.extension",
+                        "title": "Quiz: What is Namaz?",
+                        "url": "namaz_quiz"
+                    },
+                    {
+                        "id": "importance_of_prayer",
+                        "type": "dynamic",
+                        "knowledge": {
+                            "iOS": "15"
+                        },
+                        "icon": "doc.richtext",
+                        "title": "Is praying important?"
+                    },
+                    {
+                        "id": "action_categories",
+                        "type": "article",
+                        "shows": {
+                            "ru": 0,
+                            "en": 1
+                        },
+                        "icon": "doc.text",
+                        "title": "Categories of action",
+                        "url": "https://www.namaz.live/action-categories"
+                    },
+                    {
+                        "id": "prayer_categories",
+                        "type": "article",
+                        "icon": "doc.text",
+                        "title": "Types of prayer",
+                        "url": "https://www.namaz.live/prayer-categories"
+                    },
+                    {
+                        "id": "prayer_categories_quiz",
+                        "type": "dynamic",
+                        "icon": "doc.richtext",
+                        "title": "Did you understand the categories?"
+                    },
+                    {
+                        "id": "what_is_rak3ah",
+                        "type": "dynamic",
+                        "icon": "doc.richtext",
+                        "title": "What is a rak'ah?"
+                    }
+                ],
+                "title": "Getting started"
+            },
+            {
+                "id": "prayer_rules",
+                "type": "section",
+                "items": [
+                    {
+                        "id": "prayer_essentials",
+                        "type": "dynamic",
+                        "icon": "doc.richtext",
+                        "title": "Essentials of prayer: shurut & arkan",
+                        "url": "https://www.namaz.live/prayer-fard"
+                    },
+                    {
+                        "id": "prayer_conditions",
+                        "type": "dynamic",
+                        "icon": "doc.richtext",
+                        "title": "Shurut: preconditions for validity",
+                        "url": "https://www.namaz.live/prayer-shurut"
+                    },
+                    {
+                        "id": "prayer_integrals",
+                        "type": "dynamic",
+                        "icon": "doc.richtext",
+                        "title": "Arkan: integrals within prayer",
+                        "url": "https://www.namaz.live/prayer-arkan"
+                    },
+                    {
+                        "id": "prayer_times",
+                        "type": "dynamic",
+                        "icon": "doc.richtext",
+                        "title": "Prayer times",
+                        "url": "https://www.namaz.live/prayer-times"
+                    },
+                    {
+                        "id": "missed_prayers",
+                        "type": "dynamic",
+                        "knowledge": {
+                            "iOS": "15"
+                        },
+                        "icon": "doc.richtext",
+                        "title": "How to make up missed prayers?"
+                    },
+                    {
+                        "id": "taharah_intro",
+                        "type": "dynamic",
+                        "knowledge": {
+                            "iOS": "15"
+                        },
+                        "icon": "doc.richtext",
+                        "title": "Taharah: purification before prayer",
+                        "url": "https://www.namaz.live/purity-types"
+                    },
+                    {
+                        "id": "taharah_key",
+                        "type": "quiz",
+                        "icon": "puzzlepiece.extension",
+                        "knowledge": {
+                            "Before iOS": "15"
+                        },
+                        "title": "Key to prayer",
+                        "url": "taharah_key"
+                    },
+                    {
+                        "id": "about_qibla",
+                        "type": "dynamic",
+                        "knowledge": {
+                            "iOS": "15"
+                        },
+                        "icon": "doc.richtext",
+                        "title": "Qibla - direction of prayer"
+                    },
+                    {
+                        "id": "awrah",
+                        "type": "dynamic",
+                        "knowledge": {
+                            "iOS": "15"
+                        },
+                        "icon": "doc.richtext",
+                        "title": "Awrah - covering nakedness"
+                    },
+                    {
+                        "id": "niyyah",
+                        "type": "dynamic",
+                        "knowledge": {
+                            "iOS": "15"
+                        },
+                        "icon": "doc.richtext",
+                        "title": "Niyyah - intention"
+                    }
+                ],
+                "title": "Prayer rules"
+            },
+            {
+                "id": "taharah_haqiqi",
+                "type": "section",
+                "items": [
+                    {
+                        "id": "physical_impurities",
+                        "type": "article",
+                        "shows": {
+                            "ru": 0,
+                            "en": 1
+                        },
+                        "icon": "doc.text",
+                        "title": "Physical Impurities",
+                        "url": "https://www.namaz.live/physical-impurities"
+                    },
+                    {
+                        "id": "removing_impurities",
+                        "type": "article",
+                        "shows": {
+                            "ru": 0,
+                            "en": 1
+                        },
+                        "icon": "doc.text",
+                        "title": "How to remove physical impurities",
+                        "url": "https://www.namaz.live/removing-physical-impurities"
+                    },
+                    {
+                        "id": "istinja",
+                        "type": "article",
+                        "icon": "doc.text",
+                        "title": "Istinja - cleaning after toilet",
+                        "url": "https://www.namaz.live/istinja"
+                    },
+                    {
+                        "id": "ghusl",
+                        "type": "article",
+                        "icon": "doc.text",
+                        "title": "Ghusl - full-body washing",
+                        "url": "https://www.namaz.live/ghusl"
+                    },
+                    {
+                        "id": "performing_ghusl",
+                        "type": "quiz",
+                        "icon": "puzzlepiece.extension",
+                        "title": "Fard and sunnah in ghusl",
+                        "url": "performing_ghusl"
+                    },
+                    {
+                        "id": "wudu",
+                        "type": "article",
+                        "icon": "doc.text",
+                        "title": "Wudu - ablution",
+                        "url": "https://www.namaz.live/wudu"
+                    },
+                    {
+                        "id": "performing_wudu",
+                        "type": "quiz",
+                        "icon": "puzzlepiece.extension",
+                        "title": "Fard and sunnah in wudu",
+                        "url": "performing_wudu"
+                    },
+                    {
+                        "id": "water",
+                        "type": "dynamic",
+                        "icon": "doc.richtext",
+                        "title": "Water suitable for wudu and ghusl",
+                        "url": "https://www.namaz.live/water-types"
+                    },
+                    {
+                        "id": "tayammum",
+                        "type": "article",
+                        "icon": "doc.text",
+                        "title": "Tayammum - dry purification",
+                        "url": "https://www.namaz.live/tayammum"
+                    }
+                ],
+                "title": "Taharah: physical and ritual purification",
+                "description": "Cleaning one's body, cloth and place of prayer."
+            },
+            {
+                "id": "iman",
+                "type": "section",
+                "items": [
+                    {
+                        "id": "shahadah",
+                        "type": "article",
+                        "icon": "doc.text",
+                        "title": "Shahadah: The Declaration of Faith",
+                        "url": "https://www.namaz.live/shahadah"
+                    },
+                    {
+                        "id": "say_shahada",
+                        "type": "quiz",
+                        "icon": "puzzlepiece.extension",
+                        "title": "Quiz: Make a declaration",
+                        "url": "say_shahada"
+                    },
+                    {
+                        "id": "iman",
+                        "type": "article",
+                        "icon": "doc.text",
+                        "title": "Articles of faith",
+                        "url": "https://www.namaz.live/iman"
+                    },
+                    {
+                        "id": "tawheed",
+                        "type": "dynamic",
+                        "knowledge": {
+                            "iOS": "15"
+                        },
+                        "icon": "doc.richtext",
+                        "title": "Tawheed - Unique Oneness"
+                    },
+                    {
+                        "id": "quran",
+                        "type": "article",
+                        "shows": {
+                            "ru": 0,
+                            "en": 1
+                        },
+                        "icon": "doc.text",
+                        "title": "Quran: the Book of Allah",
+                        "url": "https://www.namaz.live/quran"
+                    },
+                    {
+                        "id": "messenger",
+                        "type": "article",
+                        "icon": "doc.text",
+                        "title": "Prophet Muhammad (ﷺ)",
+                        "url": "https://www.namaz.live/messenger"
+                    },
+                    {
+                        "id": "hadith_on_niyyah",
+                        "type": "article",
+                        "icon": "doc.text",
+                        "title": "The Hadith of intention",
+                        "url": "https://www.namaz.live/intention"
+                    },
+                    {
+                        "id": "islam_imaan_ihsan",
+                        "type": "article",
+                        "shows": {
+                            "ru": 0,
+                            "en": 1
+                        },
+                        "icon": "doc.text",
+                        "title": "The Hadith of Jibreel (peace be upon him)",
+                        "url": "https://www.namaz.live/islam-iman-ihsan"
+                    },
+                    {
+                        "id": "islam_imaan_ihsan_quiz",
+                        "type": "quiz",
+                        "shows": {
+                            "ru": 0,
+                            "en": 1
+                        },
+                        "icon": "puzzlepiece.extension",
+                        "title": "Quiz: Islam, Iman, & Ihsan.",
+                        "url": "islam_imaan_ihsan_quiz"
+                    }
+                ],
+                "title": "Iman: true faith"
+            },
+            {
+                "id": "other_prayers",
+                "type": "section",
+                "items": [
+                    {
+                        "id": "jumu3ah",
+                        "type": "article",
+                        "icon": "doc.text",
+                        "title": "Jumu'ah: Friday prayer",
+                        "description": "Fard for men",
+                        "url": "https://www.namaz.live/jumu3ah-friday-prayer"
+                    },
+                    {
+                        "id": "tahajjud",
+                        "type": "article",
+                        "icon": "doc.text",
+                        "title": "Tahajjud: the night vigil prayer",
+                        "url": "https://www.namaz.live/tahajjud"
+                    },
+                    {
+                        "id": "dua",
+                        "type": "article",
+                        "shows": {
+                            "ru": 0,
+                            "en": 1
+                        },
+                        "icon": "doc.text",
+                        "title": "How to make dua",
+                        "url": "https://www.namaz.live/dua"
+                    }
+                ],
+                "title": "Various prayers"
+            },
+            {
+                "id": "ramadan",
+                "type": "section",
+                "items": [
+                    {
+                        "id": "ramadan_faq",
+                        "type": "article",
+                        "icon": "doc.text",
+                        "title": "Fasting in Ramadan",
+                        "description": "The best of deeds in the best of months",
+                        "url": "https://www.namaz.live/ramadan"
+                    },
+                    {
+                        "id": "taraweeh",
+                        "type": "article",
+                        "icon": "doc.text",
+                        "title": "Taraweeh prayer",
+                        "url": "https://www.namaz.live/taraweeh"
+                    },
+                    {
+                        "id": "laylatul_qadr",
+                        "type": "article",
+                        "icon": "doc.text",
+                        "title": "Laylatul Qadr: the Night of Divine Decree",
+                        "url": "https://www.namaz.live/laylatul-qadr"
+                    },
+                    {
+                        "id": "fitr",
+                        "type": "article",
+                        "icon": "doc.text",
+                        "title": "Sadaqat ul-Fitr",
+                        "url": "https://www.namaz.live/fitr"
+                    },
+                    {
+                        "id": "eid_prayer",
+                        "type": "article",
+                        "shows": {
+                            "ru": 0,
+                            "en": 1
+                        },
+                        "icon": "doc.text",
+                        "title": "Eid Prayer",
+                        "url": "https://www.namaz.live/eid-prayer"
+                    },
+                    {
+                        "id": "dhul-hijjah",
+                        "type": "article",
+                        "icon": "doc.text",
+                        "title": "The 10 days of Dhul Hijjah",
+                        "url": "https://www.namaz.live/dhul-hijjah"
+                    }
+                ],
+                "title": "Ramadan and other special dates"
+            }
+        ],
+        "title": "Learn"
+    },
+    {
+        "id": "settings",
+        "type": "tab",
+        "icon": "gear",
+        "items": [
+            {
+                "id": "settings",
+                "type": "section",
+                "items": [
+                    {
+                        "id": "prayer_settings",
+                        "icon": "slider.horizontal.2.square",
+                        "type": "list",
+                        "items": [
+                            {
+                                "id": "configure_prayer",
+                                "type": "section",
+                                "items": [
+                                    {
+                                        "id": "gender",
+                                        "type": "segmented",
+                                        "elements": [
+                                            "male",
+                                            "female"
+                                        ],
+                                        "title": "Prayer for"
+                                    },
+                                    {
+                                        "id": "transliteration_alphabet",
+                                        "type": "segmented",
+                                        "elements": [
+                                            "latin",
+                                            "cyrillic",
+                                            "none"
+                                        ],
+                                        "title": "Transliteration alphabet"
+                                    },
+                                    {
+                                        "id": "translation_language",
+                                        "type": "segmented",
+                                        "elements": [
+                                            "en",
+                                            "ru",
+                                            "de",
+                                            "none"
+                                        ],
+                                        "title": "Translation of meaning",
+                                        "description": "German is a work-in-progress"
+                                    }
+                                ],
+                                "title": "Configure prayer"
+                            },
+                            {
+                                "id": "prayer_action_category",
+                                "type": "section",
+                                "items": [
+                                    {
+                                        "id": "action_categories",
+                                        "type": "article",
+                                        "shows": {
+                                            "ru": 0,
+                                            "en": 1
+                                        },
+                                        "icon": "doc.append",
+                                        "title": "About the categories of action",
+                                        "url": "https://www.namaz.live/action-categories"
+                                    },
+                                    {
+                                        "id": "show_prayer_action_category",
+                                        "type": "switch",
+                                        "shows": {
+                                            "ru": 1,
+                                            "en": 1
+                                        },
+                                        "title": "Show categories of action",
+                                        "description": "Fard, wajib, sunnah, mustahab"
+                                    },
+                                    {
+                                        "id": "rabbighfirlee",
+                                        "type": "switch",
+                                        "shows": {
+                                            "ru": 1,
+                                            "en": 1
+                                        },
+                                        "title": "Say 'Rabbi-ghfir lee'",
+                                        "description": "It's a mustahab (recommended) to say between sajdas"
+                                    }
+                                ],
+                                "title": "Prayer actions"
+                            },
+                            {
+                                "id": "font_size",
+                                "type": "section",
+                                "items": [
+                                    {
+                                        "id": "arabic_size",
+                                        "type": "stepper",
+                                        "items": [
+                                            {
+                                                "id": "25",
+                                                "type": "min_value"
+                                            },
+                                            {
+                                                "id": "60",
+                                                "type": "max_value"
+                                            },
+                                            {
+                                                "id": "5",
+                                                "type": "step_value"
+                                            },
+                                            {
+                                                "id": "25",
+                                                "type": "default_value"
+                                            }
+                                        ],
+                                        "title": "Arabic"
+                                    },
+                                    {
+                                        "id": "text_size",
+                                        "type": "stepper",
+                                        "items": [
+                                            {
+                                                "id": "20",
+                                                "type": "min_value"
+                                            },
+                                            {
+                                                "id": "50",
+                                                "type": "max_value"
+                                            },
+                                            {
+                                                "id": "5",
+                                                "type": "step_value"
+                                            },
+                                            {
+                                                "id": "20",
+                                                "type": "default_value"
+                                            }
+                                        ],
+                                        "title": "Transliteration"
+                                    },
+                                    {
+                                        "id": "meaning_size",
+                                        "type": "stepper",
+                                        "items": [
+                                            {
+                                                "id": "15",
+                                                "type": "min_value"
+                                            },
+                                            {
+                                                "id": "50",
+                                                "type": "max_value"
+                                            },
+                                            {
+                                                "id": "5",
+                                                "type": "step_value"
+                                            },
+                                            {
+                                                "id": "15",
+                                                "type": "default_value"
+                                            }
+                                        ],
+                                        "title": "Meaning"
+                                    },
+                                    {
+                                        "id": "subtitle_size",
+                                        "type": "stepper",
+                                        "items": [
+                                            {
+                                                "id": "15",
+                                                "type": "min_value"
+                                            },
+                                            {
+                                                "id": "50",
+                                                "type": "max_value"
+                                            },
+                                            {
+                                                "id": "5",
+                                                "type": "step_value"
+                                            },
+                                            {
+                                                "id": "15",
+                                                "type": "default_value"
+                                            }
+                                        ],
+                                        "title": "Comments"
+                                    }
+                                ],
+                                "title": "Font sizes"
+                            }
+                        ],
+                        "title": "Prayer settings"
+                    },
+                    {
+                        "id": "prayer_time",
+                        "type": "list",
+                        "icon": "clock",
+                        "items": [
+                            {
+                                "id": "about_prayer_time",
+                                "type": "section",
+                                "items": [
+                                    {
+                                        "id": "prayer_times",
+                                        "type": "shortcut",
+                                        "icon": "doc.richtext",
+                                        "title": "Prayer times"
+                                    }
+                                ],
+                                "title": "Prayer time"
+                            },
+                            {
+                                "id": "prayer_time",
+                                "type": "section",
+                                "icon": "clock",
+                                "items": [
+                                    {
+                                        "id": "location",
+                                        "type": "switch",
+                                        "icon": "clock",
+                                        "title": "Enable prayer times",
+                                        "description": "Uses your geolocation"
+                                    },
+                                    {
+                                        "id": "prayer_time_settings",
+                                        "type": "list",
+                                        "knowledge": {
+                                            "iOS": "15",
+                                            "switch": "location"
+                                        },
+                                        "title": "Calculation settings"
+                                    }
+                                ],
+                                "title": "Prayer time"
+                            }
+                        ],
+                        "title": "Prayer time"
+                    },
+                    {
+                        "id": "notification_settings",
+                        "icon": "app.badge",
+                        "type": "list",
+                        "knowledge": {
+                            "iOS": "15"
+                        },
+                        "title": "Notification settings"
+                    }
+                ],
+                "title": "Settings"
+            },
+            {
+                "id": "app_settings",
+                "type": "section",
+                "items": [
+                    {
+                        "id": "prayer_display",
+                        "type": "segmented",
+                        "elements": [
+                            "fard_only",
+                            "fard_with_sunnah"
+                        ],
+                        "title": "Prayers displayed on the main page"
+                    },
+                    {
+                        "id": "ghayr_muakkadah_prayers",
+                        "type": "switch",
+                        "knowledge": {
+                            "prayer_display": "fard_with_sunnah"
+                        },
+                        "title": "Show non-emphasized sunnahs too"
+                    },
+                    {
+                        "id": "language",
+                        "type": "segmented",
+                        "elements": [
+                            "en",
+                            "ru"
+                        ],
+                        "title": "App Language"
+                    },
+                    {
+                        "id": "dark_mode",
+                        "type": "switch",
+                        "knowledge": {
+                            "iOS": "13"
+                        },
+                        "title": "Allow dark mode",
+                        "description": "Gets enabled at night"
+                    }
+                ],
+                "title": "App settings"
+            },
+            {
+                "id": "miscellaneous",
+                "type": "section",
+                "items": [
+                    {
+                        "id": "information_center",
+                        "type": "list",
+                        "icon": "info.square",
+                        "items": [
+                            {
+                                "id": "ask_question",
+                                "type": "section",
+                                "items": [
+                                    {
+                                        "id": "whatsapp_developer",
+                                        "type": "link",
+                                        "icon": "message",
+                                        "title": "Ask a question in WhatsApp",
+                                        "url": "https://api.whatsapp.com/send?phone=+77765206766&text=As-salaamu%20%27alaikum!%20I%27m%20using%20NamazApp.%20I%20have%20the%20following%20question%20or%20suggestion:"
+                                    }
+                                ],
+                                "title": "Customer Support"
+                            },
+                            {
+                                "id": "support_links",
+                                "type": "section",
+                                "items": [
+                                    {
+                                        "id": "premium",
+                                        "type": "shortcut",
+                                        "knowledge": {
+                                            "iOS": "15"
+                                        },
+                                        "icon": "cube",
+                                        "title": "Namaz Premium"
+                                    },
+                                    {
+                                        "id": "about_us",
+                                        "type": "article",
+                                        "icon": "n.square",
+                                        "title": "About us",
+                                        "url": "https://www.namaz.live/about-us"
+                                    },
+                                    {
+                                        "id": "personalization",
+                                        "type": "questionnaire",
+                                        "knowledge": {
+                                            "iOS": "15"
+                                        },
+                                        "icon": "person",
+                                        "items": [
+                                            {
+                                                "id": "greetings",
+                                                "type": "image",
+                                                "icon": "learning-bro",
+                                                "title": "As-salaamu 3alaikum!",
+                                                "description": "Please tell us about yourself, if you have a minute.\n\nWe want to better understand our users to improve the product."
+                                            },
+                                            {
+                                                "id": "prior_knowledge",
+                                                "type": "singleChoice",
+                                                "items": [
+                                                    {
+                                                        "id": "absolute_beginner",
+                                                        "type": "option",
+                                                        "icon": "🛴",
+                                                        "title": "I'm a beginner"
+                                                    },
+                                                    {
+                                                        "id": "knows_little",
+                                                        "type": "option",
+                                                        "icon": "🚲",
+                                                        "title": "I know a little"
+                                                    },
+                                                    {
+                                                        "id": "knows_basics",
+                                                        "type": "option",
+                                                        "icon": "🛵",
+                                                        "title": "I know the basics well"
+                                                    },
+                                                    {
+                                                        "id": "knows_well",
+                                                        "type": "option",
+                                                        "icon": "🏍",
+                                                        "title": "I've studied fiqh"
+                                                    }
+                                                ],
+                                                "title": "How much do you know about prayer?"
+                                            },
+                                            {
+                                                "id": "goal",
+                                                "type": "singleChoice",
+                                                "items": [
+                                                    {
+                                                        "id": "learn_to_pray",
+                                                        "type": "option",
+                                                        "icon": "🧎🏽",
+                                                        "title": "Pray in a correct way"
+                                                    },
+                                                    {
+                                                        "id": "pray_on_time",
+                                                        "type": "option",
+                                                        "icon": "⌚️",
+                                                        "title": "Pray regularly and on time"
+                                                    },
+                                                    {
+                                                        "id": "memorize_quran_duas",
+                                                        "type": "option",
+                                                        "icon": "🎧",
+                                                        "title": "Memorize more Quran and duas"
+                                                    },
+                                                    {
+                                                        "id": "find_for_friend",
+                                                        "type": "option",
+                                                        "icon": "💌",
+                                                        "title": "Recommend a prayer app to a friend/relative"
+                                                    },
+                                                    {
+                                                        "id": "other",
+                                                        "type": "option",
+                                                        "icon": "❔",
+                                                        "title": "Other"
+                                                    }
+                                                ],
+                                                "title": "What would you like to achieve with NamazApp?"
+                                            },
+                                            {
+                                                "id": "thank_you",
+                                                "type": "image",
+                                                "icon": "grades-bro",
+                                                "title": "Thank you for sharing with us!",
+                                                "description": "InshaAllah, it'll help us further improve NamazApp.\n\nIf you have any questions feel free to contact us."
+                                            }
+                                        ],
+                                        "title": "Tell us about yourself"
+                                    },
+                                    {
+                                        "id": "share_app",
+                                        "type": "feature",
+                                        "icon": "square.and.arrow.up",
+                                        "title": "Share with friends"
+                                    },
+                                    {
+                                        "id": "rate_app",
+                                        "type": "feature",
+                                        "icon": "star",
+                                        "title": "Rate us in AppStore",
+                                        "description": "This will help us reach more people inshaAllah"
+                                    }
+                                ],
+                                "title": "Support NamazApp"
+                            },
+                            {
+                                "id": "we_recommend",
+                                "type": "section",
+                                "items": [
+                                    {
+                                        "id": "ghaza_charity",
+                                        "type": "link",
+                                        "icon": "waveform.path.ecg",
+                                        "title": "Palestine Emergency Appeal",
+                                        "url": "https://campaigns.givebrite.com/fundraiser/oneummah-palestine-emergency-smile2jannah"
+                                    }
+                                ],
+                                "title": "Charities"
+                            },
+                            {
+                                "id": "recommended_apps",
+                                "type": "section",
+                                "icon": "app",
+                                "items": [
+                                    {
+                                        "id": "joode",
+                                        "type": "link",
+                                        "title": "Joode: Arabic Alphabet in 20 minutes",
+                                        "description": "A light introduction to letters",
+                                        "url": "https://apps.apple.com/us/app/id1138728895"
+                                    },
+                                    {
+                                        "id": "thani",
+                                        "type": "link",
+                                        "title": "Thani: Learn to Read Arabic",
+                                        "description": "A simple system for beginners",
+                                        "url": "https://apps.apple.com/us/app/id1138728895?platform=iphone"
+                                    },
+                                    {
+                                        "id": "readar",
+                                        "type": "link",
+                                        "title": "Read Arabic App",
+                                        "description": "Recognize letters in Quran and Dua",
+                                        "url": "https://apps.apple.com/app/id1364988718?platform=iphone"
+                                    },
+                                    {
+                                        "id": "online_course",
+                                        "type": "link",
+                                        "icon": "play.laptopcomputer",
+                                        "title": "iSyllabus: the best course ever",
+                                        "url": "https://www.isyllabus.org/"
+                                    }
+                                ],
+                                "title": "Recommended Apps"
+                            },
+                            {
+                                "id": "social_media",
+                                "type": "section",
+                                "comments": {
+                                    "ru": "Подпишитесь, и возвращайтесь в наш апп",
+                                    "en": "Subscribe and come back to our app"
+                                },
+                                "items": [
+                                    {
+                                        "id": "youtube",
+                                        "type": "link",
+                                        "title": "Youtube channel",
+                                        "url": "https://www.youtube.com/@namazlive"
+                                    },
+                                    {
+                                        "id": "telegram",
+                                        "type": "link",
+                                        "title": "Telegram channel",
+                                        "url": "https://t.me/salahapp"
+                                    },
+                                    {
+                                        "id": "readar",
+                                        "type": "link",
+                                        "title": "Twitter account",
+                                        "url": "https://twitter.com/namazapp"
+                                    }
+                                ],
+                                "title": "Our social media"
+                            },
+                            {
+                                "id": "books",
+                                "type": "section",
+                                "icon": "text.book.closed",
+                                "items": [
+                                    {
+                                        "id": "quran_beheld",
+                                        "type": "link",
+                                        "shows": {
+                                            "ru": 0
+                                        },
+                                        "title": "The Quran Beheld",
+                                        "description": "An English Translation from the Arabic",
+                                        "url": "https://www.quranbeheld.com/"
+                                    },
+                                    {
+                                        "id": "seerah_book",
+                                        "type": "link",
+                                        "shows": {
+                                            "ru": 0
+                                        },
+                                        "title": "Muhammad (ﷺ): His Life Based on the Earliest Sources",
+                                        "url": "https://bookstore.zaytuna.edu/products/muhammad-his-life-based-on-the-earliest-sources"
+                                    },
+                                    {
+                                        "id": "forty_principles",
+                                        "type": "link",
+                                        "shows": {
+                                            "ru": 0
+                                        },
+                                        "title": "The Forty Principles of the Religion",
+                                        "description": "A comprehensive and concise read on key aspects of Islam as a whole.",
+                                        "url": "https://www.meccabooks.com/products/al-ghazali-s-forty-principles-of-the-religion-al-arba-in-fi-usul-ad-din"
+                                    },
+                                    {
+                                        "id": "fiqh_akbar",
+                                        "type": "link",
+                                        "shows": {
+                                            "ru": 0
+                                        },
+                                        "title": "Al-Fiqh al-Akbar Explained",
+                                        "description": "Imam Abu Hanifa's famous book on Muslim belief",
+                                        "url": "https://www.meccabooks.com/products/imam-abu-hanifa-s-al-fiqh-al-akbar-explained"
+                                    },
+                                    {
+                                        "id": "ascent",
+                                        "type": "link",
+                                        "shows": {
+                                            "ru": 0
+                                        },
+                                        "title": "Ascent to Felicity: A Manual on Islamic Creed and Hanafi Jurisprudence",
+                                        "description": "A thorough read if you want to learn the topic properly. Has really detailed footnotes.",
+                                        "url": "https://www.whitethreadpress.com/products/ascent-to-felicity"
+                                    }
+                                ],
+                                "title": "Books"
+                            }
+                        ],
+                        "title": "Information Center"
+                    }
+                ],
+                "title": "Miscellaneous"
+            }
+        ],
+        "title": "Settings"
+    }
+]

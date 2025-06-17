@@ -1,0 +1,37 @@
+Outcome ID,Outcome,Parent,Promotes,Assesses
+prayer,Every sane adult Muslim must pray,-,"fard_prayers, importance_of_prayer","namaz_quiz, prayer_judgement"
+four_prayer_categories,"Prayers are of various types: fard, wajib, sunnah, and nafl",prayer,"prayer_categories, prayer_display, prayer_categories_quiz","fard_prayer_quiz, wajib_prayer_quiz, sunnah_prayer_quiz, nafl_prayer_quiz"
+rak3at_number,Each prayer has a certain number of rakعat,prayer,"what_is_rak3ah, prayer_categories, prayer_display, prayer_categories_quiz","fajr_fard_rakat, dhuhr_fard_rakat, asr_fard_rakat, maghrib_fard_rakat, isha_fard_rakat, witr_rakat, fajr_sunnah_rakat, "
+fard_of_prayer,Fards of Prayer are Shurut and Arkan,prayer,prayer_essentials,prayer_essentials_quiz
+arkan,Integrals of valid prayer (Arkan),prayer,prayer_integrals,prayer_integrals_quiz
+shurut,Preconditions for valid prayer,prayer,prayer_conditions,prayer_conditions_quiz
+awqat,Each fard prayer has a window within which it must be prayed,shurut,prayer_times ,awqat_order
+awqat_enable,Enable prayer times,awqat,prayer_time_settings,location
+3awrah,Covering nakedness (عawrah) in prayer for men and women,shurut,awrah,awrah_quiz
+qibla_outcome,Direction of Prayer (Qibla),shurut,"about_qibla, qibla",qibla_quiz
+niyyah_outcome,Intention (Niyyah),shurut,niyyah,niyyah_quiz
+taharah_main,Purification is a prerequisite of prayer,shurut,taharah_intro,purification_tirmidhi
+qada_prayers,A missed prayer must be made up,awqat,prayer_times,prayer_times_qada_hadith
+awqat_forbidden,Three forbidden times in which we don't pray,awqat,prayer_times,prayer_times_forbidden_hadith
+qada_maintaing_order,Missed prayers must be made up in the original order,awqat,prayer_times,sequence_exceptions
+taharah_haqiqi,Physical purity (Haqiqi Taharah) means being free from physical impurities (najas),taharah,taharah_intro,haqiqi_taharah_definition
+taharah_hukmi,Ritual purity (Hukmi Taharah) means being free from major and minor ritual impurity states (hadath),taharah,taharah_intro,hukmi_taharah_definition
+ghusl_actions,Performing Ghusl,taharah_hukmi,ghusl,performing_ghusl
+ghusl_invalidators,What invalidates Ghusl,taharah_hukmi,ghusl,ghusl_invalidators_quiz
+ghusl_when,When Ghusl is required,taharah_hukmi,ghusl,ghusl_when_quiz
+wudu_when,When wudu is required,taharah_hukmi,wudu,wudu_when_quiz
+wudu_invalidators,What invalidates wudu,taharah_hukmi,wudu,wudu_invalidators_quiz
+wudu_khuff,Wiping the leather socks,taharah_hukmi,khuff_wiping,khuff_wiping_quiz
+wudu_actions,Performing Wudu,taharah_hukmi,wudu,performing_wudu
+najasah_types,Types of impurities,taharah_haqiqi,physical_impurities,physical_impurities_quiz
+najasah_remove,Removing the impurities,taharah_haqiqi,removing_impurities,removing_impurities_quiz
+najasah_excused,Excused amount,taharah_haqiqi,removing_impurities,excused_impurities_quiz
+tayammum_invalidators,Nullifiers of Tayammum,taharah_hukmi,tayammum,tayammum_invalidators_quiz
+tayammum_actions,Integrals of Tayammum,taharah_hukmi,tayammum,tayammum_actions_quiz
+tayammud_when,When Tayammum is relevant,taharah_hukmi,tayammum,tayammum_when_quiz
+tahreemah,Opening Takbeer,arkan,prayer_integrals,tahreemah_quiz
+qiyam,Standing (Qiyam),arkan,prayer_integrals,qiyam_quiz
+qiraah,Recitation of Quran (Qira'ah),arkan,prayer_integrals,qiraah_quiz
+ruku3,Bowing (Rukuع),arkan,prayer_integrals,ruku3_quiz
+sujood,Prostration (Sujood),arkan,prayer_integrals,sujood_quiz
+jalsah_akhirah,Final Sitting (Jalsah Akhirah),arkan,prayer_integrals,jalsah_akhirah_quiz
