@@ -51,7 +51,7 @@ def index(request: Request):
 def metrics(request: Request) -> HTMLResponse:
     try:
         learners_df = load_learners('namaz_learners_anon.json')
-        logs_df = load_logs('namaz_logs_anon.json')
+        logs_df = load_logs('namaz_logs_anon 2.json')
         update_raw_collection(learners_df)
         outcome_map = build_outcome_map('namaz_outcomes.csv')
         grouped = compute_grouped_size(learners_df)
